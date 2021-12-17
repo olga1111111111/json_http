@@ -34,4 +34,6 @@ class ExampleWidgetProvaider extends InheritedNotifier {
         ?.widget;
     return widget is ExampleWidgetProvaider ? widget : null;
   }
+
+  void fff() {}
 }
